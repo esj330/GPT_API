@@ -1,0 +1,11 @@
+{
+  "start_month": "202501",
+  "end_month": "202502",
+  "areas": [
+    {"sido": "가상도", "sigungu": "예시구", "sigungu_code": "99999", "legal_dongs": [{"name": "예시동", "code": "9999910100"}]},
+    {"sido": "가상도", "sigungu": "다른구", "sigungu_code": "88888", "legal_dongs": [{"name": "예시동", "code": "8888810100"}]}
+  ],
+  "matching": {"top_n": 5, "min_score": 40, "max_year_gap": 10, "ambiguity_gap": 5, "mask_mode": "digit_count", "include_cancelled": false},
+  "geocode": false,
+  "output_dir": "../results/demo"
+}

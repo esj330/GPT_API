@@ -1,0 +1,26 @@
+{
+  "start_month": "202401",
+  "end_month": "202512",
+  "areas": [
+    {
+      "sido": "경기도",
+      "sigungu": "용인시 수지구",
+      "sigungu_code": "41465",
+      "legal_dongs": [
+        {"name": "풍덕천동", "code": "4146510100"},
+        {"name": "상현동", "code": "4146510700"}
+      ]
+    },
+    {
+      "sido": "서울특별시",
+      "sigungu": "마포구",
+      "sigungu_code": "11440",
+      "legal_dongs": [
+        {"name": "연남동", "code": "1144012400"}
+      ]
+    }
+  ],
+  "matching": {"top_n": 5, "min_score": 40, "max_year_gap": 10, "ambiguity_gap": 5, "mask_mode": "digit_count", "include_cancelled": false},
+  "geocode": false,
+  "output_dir": "../results"
+}
